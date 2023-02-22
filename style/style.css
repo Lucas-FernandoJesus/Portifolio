@@ -137,3 +137,17 @@ body{
         width: auto;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
