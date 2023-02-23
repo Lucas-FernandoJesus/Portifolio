@@ -90,7 +90,7 @@ body{
     background-color: var(--cor-hover);
 }
 .apresentacao__imagem{
-    width: 50%;
+    width: 25%;
 }
 .rodape{
     color: var(--cor-primaria);
@@ -118,5 +118,8 @@ body{
     }
     .rodape{
         width: 100%;
+    }
+    .apresentacao__imagem{
+        width: 25%;
     }
 }
