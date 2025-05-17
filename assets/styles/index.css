@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url("./var.css");
 @import url("./media.css");
 
@@ -12,10 +13,14 @@ ul {
   list-style: none;
   color: var(--cor-secundaria);
 }
+h1,h2,h3,h4{
+  font-family: 'Libre Baskerville', serif;
+}
 body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  font-family: 'Baskervville', serif;
   flex-direction: column;
   color: var(--cor-secundaria);
   background-image: url("../images/background.jpeg");
@@ -27,6 +32,7 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Libre Baskerville', serif;
 }
 main {
   text-align: center;
@@ -81,7 +87,10 @@ footer {
   justify-content: center;
   width: 40%;
   text-align: justify;
-  margin: 0 auto;
+  margin: 15px auto;
   line-height: 1.4;
   text-indent: 1.5rem;
+}
+.footer_conteudo{
+  font-size: 16px;
 }
