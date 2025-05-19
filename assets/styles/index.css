@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("./var.css");
 @import url("./media.css");
 
@@ -7,20 +7,26 @@
   padding: 0;
   margin: 0;
 }
+a {
+  cursor: pointer;
+}
 a,
 ul {
   text-decoration: none;
   list-style: none;
   color: var(--cor-secundaria);
 }
-h1,h2,h3,h4{
-  font-family: 'Libre Baskerville', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Libre Baskerville", serif;
 }
 body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
   flex-direction: column;
   color: var(--cor-secundaria);
   background-image: url("../images/background.jpeg");
@@ -32,7 +38,7 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 main {
   text-align: center;
@@ -54,6 +60,15 @@ footer {
   width: 100vw;
   height: 100vh;
   z-index: 0;
+}
+#emailButton {
+  display: flex;
+  font-size: 1rem;
+  color: var(--cor-secundaria);
+  font-family: "Libre Baskerville", serif;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 .conteudo {
   position: relative;
@@ -81,16 +96,17 @@ footer {
   margin: 15px auto;
   border-radius: 6px;
 }
-.conteudo_sobre_mim{
+.conteudo_sobre_mim {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  text-align: justify;
   margin: 15px auto;
+  font-size: 18px;
+  text-align: justify;
   line-height: 1.4;
   text-indent: 1.5rem;
 }
-.footer_conteudo{
+.footer_conteudo {
   font-size: 16px;
 }
