@@ -74,13 +74,13 @@ footer {
   position: relative;
   z-index: 1;
 }
-.conteudo_projetos {
+/* .conteudo_projetos {
   margin: 40px 0;
-}
+} */
 .projeto {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  /* width: 50vw; */
   margin: 0 auto;
   column-gap: 1rem;
 }
@@ -100,13 +100,13 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  /* width: 50vw; */
   margin: 15px auto;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: justify;
   line-height: 1.4;
   text-indent: 1.5rem;
 }
-.footer_conteudo {
+/* .footer_conteudo {
   font-size: 16px;
-}
+} */
