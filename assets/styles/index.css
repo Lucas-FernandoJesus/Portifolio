@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("./var.css");
 @import url("./media.css");
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,9 +28,7 @@ body {
   font-family: "Baskervville", serif;
   flex-direction: column;
   color: var(--cor-secundaria);
-  background-image: url("../images/background.jpeg");
-  background-size: cover;
-  overflow: hidden;
+  background-color: rgb(70, 66, 66);
 }
 header nav ul {
   height: 10vh;
@@ -59,7 +56,6 @@ footer {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  z-index: 0;
 }
 #emailButton {
   display: flex;
@@ -72,15 +68,10 @@ footer {
 }
 .conteudo {
   position: relative;
-  z-index: 1;
 }
-/* .conteudo_projetos {
-  margin: 40px 0;
-} */
 .projeto {
   display: flex;
   justify-content: space-around;
-  /* width: 50vw; */
   margin: 0 auto;
   column-gap: 1rem;
 }
@@ -100,13 +91,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* width: 50vw; */
   margin: 15px auto;
-  /* font-size: 18px; */
   text-align: justify;
   line-height: 1.4;
   text-indent: 1.5rem;
 }
-/* .footer_conteudo {
-  font-size: 16px;
-} */
